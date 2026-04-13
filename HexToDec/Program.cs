@@ -3,7 +3,7 @@
 const uint MAX_INT = uint.MaxValue;
 var nDecNum = 0;
 var nHexPower = 1;
-var nMaxHexLen = Math.Truncate(Math.Log(MAX_INT, 16));
+var nMaxHexLen = Math.Ceiling(Math.Log(MAX_INT, 16));
 var oRegEx = new Regex("^[0-9A-Fa-f]+$");
 Console.WriteLine("Input a hexademical number");
 var strLine = Console.ReadLine();
