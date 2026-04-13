@@ -2,7 +2,8 @@ HexToDec. C# Tutorials. Simple Input/Output. Strings. Algorithms. DotNet Core Pl
 A console application in the C# programming language. 
 The program does the following:
   1. Asks the user to enter a string.
-  2. Checks whether the entered string is valid. It must be less than 8 characters long and contain only the numbers between 0 and 7.
+  2. Checks whether the entered string is valid.
+     It must be less than 8 characters long and contain only the numbers between 0 and 9 and the letters between A(a) and F(f).
   3. If the string does not meet the above conditions, it displays the message "incorrect hexadecimal number format" and exits.
   4. If the line meets the above conditions,
      a variable is introduced for the value of the decimal number and the multiplier to the power of 8 with initial values ​​of 0 and 1, respectively.
