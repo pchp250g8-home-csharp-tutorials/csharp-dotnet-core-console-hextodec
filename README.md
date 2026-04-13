@@ -6,11 +6,11 @@ The program does the following:
      It must be less than 8 characters long and contain only the numbers between 0 and 9 and the letters between A(a) and F(f).
   3. If the string does not meet the above conditions, it displays the message "incorrect hexadecimal number format" and exits.
   4. If the line meets the above conditions,
-     a variable is introduced for the value of the decimal number and the multiplier to the power of 8 with initial values ​​of 0 and 1, respectively.
+     a variable is introduced for the value of the decimal number and the multiplier to the power of 16 with initial values ​​of 0 and 1, respectively.
   5. The loop with the parameter is executed.
     5.1. The initial value of the parameter is set to 0, and the final value is set to the number of characters in the string (its length).
     5.2. A series of cycles is performed.
-      5.2.1. The code of the next character in the string is determined. It is converted to the number between 0 and 7.
+      5.2.1. The code of the next character in the string is determined. It is converted to the number between 0 and 15.
              The formula used is: character code - character code "0" (or the number 48 is subtracted from the character code).
              Moreover, the calculation starts from the end of the line.
       5.2.2. The resulting value is multiplied by a power of eight.
