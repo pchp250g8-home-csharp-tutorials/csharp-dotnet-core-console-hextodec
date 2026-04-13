@@ -25,7 +25,7 @@ The program does the following:
       5.2.4. The variable of the factor of power 8 is multiplied by 8, since the number is octal.
     5.3. The value of the loop parameter is compared with the final value. If it is less, the loop continues. Otherwise, it terminates.
     5.4. The loop parameter variable is incremented by the loop increment. In this example, it is 1.
-  6. The entered octal number and its representation in the decimal system are displayed on the screen. 
+  6. The entered hexadecimal number and its representation in the decimal system are displayed on the screen. 
 Developed in the Microsoft Visual Studio integrated environment.
 
 HexToDec. Занятия по С#. Простой ввод/вывод. Строки. Алгоритмы. Платформа DotNet Core. Консольное приложение.
